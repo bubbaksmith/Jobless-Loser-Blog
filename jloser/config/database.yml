@@ -15,7 +15,6 @@ default: &default
   reconnect: false
   pool: 5
   username: root
-  password:
 
 production:
   <<: *default
@@ -25,7 +24,9 @@ production:
 development:
   <<: *default
   database: jloser_dev
+  password:
 
 test:
   <<: *default
   database: jloser_test
+  password:
