@@ -19,7 +19,7 @@ default: &default
 production:
   <<: *default
   database: jloser_prod
-  password: '@ppus3r'
+  password: '<%= ENV['JLOSER_DATABASE_PASSWORD'] %>'
 
 development:
   <<: *default
