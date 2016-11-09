@@ -50,5 +50,4 @@ test:
 production:
   <<: *default
   database: jloser_production
-  username: jloser
-  password: <%= ENV['JLOSER_DATABASE_PASSWORD'] %>
+  password: @ppus3r
