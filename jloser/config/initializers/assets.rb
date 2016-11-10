@@ -12,5 +12,5 @@ Rails.application.config.assets.precompile += %w(
 bootstrap.css main.css animate-custom.css
 bootstrap.js bootstrap.min.js interact.js
 retina.js smoothscroll.js modernizr.custom.js
-jquery.easing.1.3.js jquery-func.js jquery.min.js
+jquery.easing.1.3.js jquery-func.js
 interact )
