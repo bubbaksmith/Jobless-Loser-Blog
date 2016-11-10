@@ -1,4 +1,85 @@
-<%= @message %>
-<br><br>
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main">
 
-<img src="http://i.imgur.com/uCy0ivT.jpg">
+<div id="navbar-main">
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <p class="jl-logo" style="font-size:30px; color:#3498db;">JL</p>
+        </button>
+        <a class="navbar-brand hidden-xs hidden-sm" href="#home">
+          <p class='jl-logo' style="font-size:18px; color:#3498db;">JL</p>
+        </a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li> <a href="#about" class="smoothScroll"> About</a></li>
+          <li> <a href="#services" class="smoothScroll"> Services</a></li>
+          <!--<li> <a href="#team" class="smoothScroll"> Team</a></li>-->
+          <!--<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>-->
+          <li> <a href="/blog"> Blog</a></li>
+          <li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+
+<div id="headerwrap" id="home" name="home">
+  <header class="clearfix">
+    <h1 class="jl-logo">JL</h1>
+    <p>My name is Jason</p>
+    <p>and I'm a Jobless Loser.</p>
+  </header>
+</div>
+
+<div class="container" id="about" name="about">
+  <div class="row white">
+    <br>
+    <h1 class="centered">A LITTLE ABOUT ME</h1>
+    <hr>
+    <div class="col-lg-6">
+      <p>We believe ideas come from everyone, everywhere. In fact, at BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design. We’re big believers in doing right by our neighbors. After all, we grew up in the Twin Cities and we believe this place has much to offer. So we do what we can to support the community we love.</p>
+    </div><!-- col-lg-6 -->
+    <div class="col-lg-6">
+      <p>Over the past four years, we’ve provided more than $1 million in combined cash and pro bono support to Way to Grow, an early childhood education and nonprofit organization. Other community giving involvement throughout our agency history includes pro bono work for more than 13 organizations, direct giving, a scholarship program through the Minneapolis College of Art & Design, board memberships, and ongoing participation in the Keystone Club, which gives five percent of our company’s earnings back to the community each year.</p>
+    </div><!-- col-lg-6 -->
+  </div><!-- row -->
+</div><!-- container -->
+
+
+<div class="container" id="services" name="services">
+  <br>
+  <div class="row">
+    <h2 class="centered">DATA ARCHITECTURE AND NETWORK SECURITY</h2>
+    <hr>
+    <br>
+    <div class="col-lg-offset-2 col-lg-8">
+      <p>Application developer and design architect, with extensive background and experience using 2000+ MySQL databases in highly complex Master-Master and Multi-Master replication environments.</p>
+      <p>Specialties: Enterprise scale MySQL-based database design, development and administration, Web/GUI design, UNIX/Linux System Administration, C programming, PHP/PERL, LAMP, Mongo 3.2. </p>
+    </div><!-- col-lg -->
+  </div><!-- row -->
+</div><!-- container -->
+
+<div class="container" id="contact" name="contact">
+  <div class="row">
+    <br>
+    <h1 class="centered">CONTACT ME</h1>
+    <hr>
+    <br>
+    <div class="col-lg-4">
+      <h3>Contact Information</h3>
+      <p><span class="icon icon-home"></span> Some Address 987, NY<br/>
+        <span class="icon icon-phone"></span> +34 9884 4893 <br/>
+        <span class="icon icon-mobile"></span> +34 59855 9853 <br/>
+        <span class="icon icon-envelop"></span> <a href="#"> agency@blacktie.co</a> <br/>
+        <span class="icon icon-twitter"></span> <a href="#"> @blacktie_co </a> <br/>
+        <span class="icon icon-facebook"></span> <a href="#"> BlackTie Agency </a> <br/>
+      </p>
+    </div><!-- col -->
+  </div><!-- row -->
+</div><!-- container -->
+

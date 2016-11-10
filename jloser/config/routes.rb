@@ -2,7 +2,9 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
-  get '/v2', to: 'pages#v2'
+  get '/blog', to: 'pages#blog'
+  get '/home', to: 'pages#home'
+  get '/login', to:'pages#login'
 
   get 'images/new'
   get 'users/new'
