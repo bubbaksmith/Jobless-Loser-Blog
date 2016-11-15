@@ -35,7 +35,7 @@
 <div class="container" id="about" name="about">
   <div class="row white">
     <br>
-    <h1 class="centered"><%= @about_text['title'] %></h1>
+    <h1 class="centered"><%= @about_text['title'].upcase %></h1>
     <hr>
 
     <% @about_text['body'].each do |text_section|%>
@@ -51,7 +51,7 @@
 <div class="container" id="services" name="services">
   <br>
   <div class="row">
-    <h2 class="centered"><%= @services_text['title'] %></h2>
+    <h2 class="centered"><%= @services_text['title'].upcase %></h2>
     <hr>
     <br>
 
