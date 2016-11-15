@@ -38,11 +38,11 @@
     <h1 class="centered"><%= @about_text['title'].upcase %></h1>
     <hr>
 
-    <% @about_text['body'].each do |text_section|%>
-      <div class="col-lg-6">
+    <div class="col-lg-offset-2 col-lg-8">
+      <% @about_text['body'].each do |text_section|%>
         <p><%= text_section %></p>
-      </div>
-    <% end %>
+      <% end %>
+    </div>
 
   </div><!-- row -->
 </div><!-- container -->
@@ -69,7 +69,7 @@
     <h1 class="centered">CONTACT ME</h1>
     <hr>
     <br>
-    <div class="col-lg-4">
+    <div class="col-lg-offset-2 col-lg-8">
       <h3>Contact Information</h3>
       <p>
         <span class="icon icon-home"></span> Some Address 987, NY<br/>
